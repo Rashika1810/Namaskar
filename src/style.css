@@ -1,0 +1,164 @@
+.Home {
+  position: absolute;
+  right: 0;
+  background-image: url("./images/bg.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+
+
+}
+.Home .start {
+  position: relative;
+  top: 50%;
+  left: 20%;
+  font-size: 16px;
+  padding:0.7rem;
+  border-radius: 15px;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+  background-color: green;
+  color: white;
+}
+.Home .start:hover{
+  background-color:darkgreen;
+  color: white;
+}
+.quote{
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  font-size: 2rem;
+  color: #004900;
+}
+
+
+
+/*Navbar*/
+
+.nav-cont{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(42 145 42 / 21%);
+  align-items: center;
+}
+.nav {
+  
+ overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 0.2rem;
+  justify-content: center;
+ 
+}
+.web-name{
+  display: flex;
+  flex-direction: row;
+  color: #004900;
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 8px;
+}
+.web-name h3{
+  margin-top: 15px;
+}
+
+.logo{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid green;
+}
+.nav a {
+  padding: 6px;
+  
+  margin: 1rem;
+  text-decoration: none;
+  color:#004900;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.item{
+  margin: 1rem;
+  padding: 6px;
+  border-bottom:4px solid darkgreen;
+  text-decoration: none;
+  color:#004900;
+  font-size: 1.3rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.text{
+  position: relative;
+  top: 100%;
+  /* margin-top: 600px; */
+  margin-left: 10rem;
+  margin-right: 5rem;
+
+}
+.margin ,ul {
+  color: green;
+  justify-content: center;
+}
+.dropdown{
+  
+  position:fixed;
+  top: 3.7rem;
+  display:none;
+ background-color: rgb(42 145 42 / 21%);
+ z-index: 1;
+
+}
+.item:hover .dropdown{
+  display: block;
+  
+}
+.item:hover{
+  border-bottom: none;
+}
+.pro{
+    margin: 1rem;
+  text-decoration: none;
+  color:#004900;
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 6px; 
+}
+.menu:hover,.pro:hover{
+  border-radius: 20px;
+  background-color: darkgreen;
+  color: white;
+
+}
+.menu{
+  border-bottom:4px solid darkgreen;
+}
+
+
+
+/*Footer*/
+.footer{
+  position: relative;
+  top: 100%;
+  /* margin-top: 5px; */
+  border-top: 2px solid green;
+}
+.div-icon
+{
+  text-align: center;
+}
+.icons{
+  margin: 5px;
+  font-size: 1.5rem;
+  color: black;
+  align-items: center;
+}
+.fb, .ln,.em{
+  border-radius: 20%;
+  background-color:white;
+  color:navy;
+}
+

@@ -1,0 +1,86 @@
+.cont{
+    text-align: center;
+    margin: 3rem;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 1px solid lightgreen;
+    padding: 12px;
+    
+}
+form label{
+    font-size: 20px;
+    font-weight: bold;
+    color:#004900;
+}
+.report-form{
+    margin-top: 2rem;
+}
+.generate{
+    color: green;
+    padding: 4px;
+    border: 3px solid green;
+    border-radius: 40px;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.generate2{
+    color: green;
+    padding: 4px;
+    border: 3px solid green;
+    border-radius: 40px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.generate:hover, .generate2:hover
+{
+    background-color: green;
+    color: #fff;
+}
+.report{
+    border: 2px solid black;
+    text-align: left;
+    margin-top: 2rem;
+    animation-name: emerging;
+    animation-duration:16s;
+    animation-iteration-count: 1;
+}
+@keyframes emerging{
+    from{-moz-transform: translateY(100%);
+        -webkit-transform: translateY(100%);
+        transform: translateY(100%);}
+}
+    to{-moz-transform: translateY(-220%);
+        -webkit-transform: translateY(-220%);
+        transform: translateY(-220%);}
+.disclaimer h3{
+    color: red;
+}
+
+
+/*Video section*/
+.containers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 2px solid green;
+}
+.videos-cont{
+    width: 400px;
+    height: 200px;
+    /* margin: 5px; */
+    padding: 12px;
+
+}
+.video{
+    margin: 5px;
+}
+
+

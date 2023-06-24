@@ -1,0 +1,44 @@
+
+
+.title{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+.about{
+    color:green;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top:3%;
+    text-align: center;
+}
+.Gain-container{
+    display: flex;
+    flex-direction: column;
+   justify-content: space-evenly;
+}
+.looseWeight{
+    margin-bottom: 2rem;
+    color: green;
+    
+
+}
+.ex-img{
+    text-align: center;
+}
+.ex-img img{
+    width: 500px;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0,0.5);
+    border-radius: 17px;
+    
+}
+.yoga-name{
+    margin-left: 20%;
+    margin-bottom: 1rem;
+}
+.poses{
+    margin-top: 3%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
